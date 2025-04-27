@@ -69,7 +69,7 @@
         <circle class="progress-bg" cx="80" cy="80" r="70"></circle>
         <circle class="progress-bar" cx="80" cy="80" r="70" stroke-dasharray="439.82" stroke-dashoffset="0"></circle>
       </svg>
-      <div class="progress-text">66%</div>
+      <div class="progress-text">46%</div>
       <div class="section-label">Ulu Kelang - Ukay Perdana</div>
     </div>
     <div class="progress-circle">
@@ -93,7 +93,7 @@
   <script>
     // This part dynamically colors the completed portion
     document.querySelectorAll('.progress-bar').forEach((bar, i) => {
-      const percent = [66, 1, 1][i];
+      const percent = [44, 1, 1][i];
       const radius = 70;
       const circumference = 2 * Math.PI * radius;
       const offset = circumference * (1 - percent / 100);
